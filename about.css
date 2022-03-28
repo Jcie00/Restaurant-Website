@@ -1,0 +1,75 @@
+/* our Chef styles */
+.ourChef__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.ourChef__title,
+.aboutUs__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:aliceblue;
+    margin-bottom: 1rem;
+}
+.ourChef__subtitle {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: aliceblue;
+    margin-bottom: 2rem;
+}
+.ourChef__text, 
+.aboutUs__text {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: aliceblue;
+}
+@media only screen and (min-width: 768px) {
+    .ourChef__wrapper {
+        flex-direction: row;
+        gap: 3rem;
+    }
+    .ourChef__img,
+    .ourChef__info {
+        flex: 1;
+    }
+    .ourChef__title,
+    .aboutUs__title {
+        font-size: 3.6rem;
+    }
+    .ourChef__subtitle{
+        font-size: 1.8rem;
+    }
+    .ourChef__text,
+    .aboutUs__text {
+        font-size: 1.8rem;
+        max-width: 800px;
+    }
+}
+
+/* About Us */
+.aboutUs__info {
+    text-align: left;
+    margin-bottom: 5rem;   
+}
+.aboutUs__imgs__wrapper img {
+    object-fit: cover;
+}   
+@media only screen and (min-width: 768px) {
+    .aboutUs__info {
+        text-align: center;
+    }
+    .aboutUs__imgs__wrapper {
+        gap: 2rem;
+    }
+    .ourGoals__text {
+        margin: 0 auto;
+    }
+}    
+    
+    
+    
+    
+    
+    
+    
+    
